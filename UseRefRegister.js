@@ -1,5 +1,5 @@
 import { useRef } from "react";
-// createRef 활용(state 없이)
+// useRef
 const UseRefRegister = () => {
   const inputId = useRef("");
   const inputPw = useRef("");
